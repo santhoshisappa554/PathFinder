@@ -7,7 +7,7 @@ public class MapData : MonoBehaviour
     public int width = 10;
     public int height = 5;
     
-    int[,] MakeMyMap()
+    public int[,] MakeMyMap()
     {
         int[,] map = new int[width, height];
         for (int i = 0; i <width; i++)
